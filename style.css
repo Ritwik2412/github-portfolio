@@ -45,6 +45,18 @@ nav {
     color: #64ffda;
 }
 
+.github-btn {
+    background-color: #64ffda;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #0a192f !important;
+    font-weight: bold;
+}
+
+.github-btn:hover {
+    background-color: #52e2c4;
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -79,12 +91,12 @@ nav {
     background-color: #52e2c4;
 }
 
-/* About Section */
-.about, .projects, .contact {
+/* Sections */
+.about, .projects, .contact, .publications {
     padding: 80px 10%;
 }
 
-.about h2, .projects h2, .contact h2 {
+.about h2, .projects h2, .contact h2, .publications h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -107,9 +119,16 @@ nav {
     transform: translateY(-5px);
 }
 
-/* Contact Section */
-.contact p {
-    margin-bottom: 20px;
+/* Publications */
+.publication-card {
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.publication-card:hover {
+    transform: translateY(-5px);
 }
 
 /* Footer */
